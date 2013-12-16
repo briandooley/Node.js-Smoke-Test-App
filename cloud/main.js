@@ -33,7 +33,8 @@ exports.webCall = function(params, callback) {
 exports.feedCall = function(params, callback) {
   var feedParams = {          
 //    'link': 'http://www.feedhenry.com/feed',
-    'link': 'http://feedhenrystatus.com/feed/',
+//    'link': 'http://feedhenrystatus.com/feed/',
+    'link': 'http://feeds.feedburner.com/VmwareJapanCloudInfrastructureBlog?format=xml',
     'list-max' : 10
   };
   console.log("in feedCall");
